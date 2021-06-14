@@ -2,7 +2,7 @@
 # script para compilar y subir el sketch desde la terminal
 
 # compilar el código fuente
-arduino-cli compile test.ino --fqbn esp8266:esp8266:generic
+arduino-cli compile espPae.ino --fqbn esp8266:esp8266:generic
 
 # cargar al arduino
-sudo arduino-cli upload -b esp8266:esp8266:generic -p /dev/ttyACM0 test.ino
+sudo arduino-cli upload -b esp8266:esp8266:generic -p /dev/ttyACM0 espPae.ino
