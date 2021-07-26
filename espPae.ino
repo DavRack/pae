@@ -8,7 +8,7 @@ const char* ssid = "SPEED_LONDONO";
 const char* password = "011100FL";
 
 // dirección del servidor
-String url = "http://35.226.204.189/api/state";
+String url = "http://35.226.204.189/api/device/3205901539/state";
 int ledPin = 2;
 
 void setup() {
